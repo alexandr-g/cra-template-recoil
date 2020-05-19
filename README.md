@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A quick start light weight Create React App template with Recoil for state management
+
+## Usage
+
+```bash
+npx create-react-app your-project-name --template recoil
+```
+
+Or
+
+```bash
+yarn create react-app your-project-name --template recoil
+```
+
+`npx` command installs the most recent stable version of CRA from npm.
+
+`--template` parameter points to this template, note that `cra-template-` prefix is omitted.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project root directory, you can run:
 
-### `yarn start`
+- `yarn start` - runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `yarn test` - launches the test runner in the interactive watch mode.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- `yarn build` - builds the app for production to the `build` folder.
 
-### `yarn test`
+- `yarn eject` - exposes content of `react-script` package
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to create custom Create React App (CRA) templates article
 
-### `yarn build`
+I created a step by step guide on how to create your own templates. Check it on
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[View on Medium](https://medium.com/@alexgrischuk/how-to-create-custom-create-react-app-cra-templates-73a5196edeb)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[View on personal blog](https://grischuk.de/how-to-create-custom-create-react-app-cra-templates)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[View on dev.to](https://dev.to/alexandrg/how-to-create-custom-create-react-app-cra-templates-3nca)
 
-### `yarn eject`
+## My other templates
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Create React App template with TypeScript, Redux, React Router, Enzyme and custom ESlint](https://github.com/alexandr-g/cra-template-typescript-redux)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Thank you
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I hope this template will be helpful for you 🙏

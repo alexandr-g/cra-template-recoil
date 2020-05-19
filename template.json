@@ -1,0 +1,7 @@
+{
+  "package": {
+    "dependencies": {
+      "recoil": "^0.0.7"
+    }
+  }
+}

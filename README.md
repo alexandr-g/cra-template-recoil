@@ -1,4 +1,8 @@
-# A quick start light weight Create React App template with Recoil for state management
+# A light weight Create React App template with Recoil for state management
+
+This template provides you a project with [Recoil](https://recoiljs.org/) setup.
+[Recoil](https://recoiljs.org/) is a state management library for [React](https://reactjs.org/) developed and used by Facebook.
+This template comes in handy when you want to play with Recoil or starting a new project.
 
 ## Usage
 

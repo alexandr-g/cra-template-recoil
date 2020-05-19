@@ -8,6 +8,7 @@ import './App.css'
 function App() {
   return (
     <RecoilRoot>
+      <h1>The project is running with Recoil</h1>
       <Counter />
     </RecoilRoot>
   )

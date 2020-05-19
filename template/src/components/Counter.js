@@ -11,9 +11,9 @@ const Counter = () => {
 
   return (
     <div className="App">
-      <h1>
+      <h2>
         Counter: <strong>{number}</strong>
-      </h1>
+      </h2>
       <button onClick={() => setNumber(number - 1)}>-</button>
       <button onClick={() => setNumber(number + 1)}>+</button>
     </div>

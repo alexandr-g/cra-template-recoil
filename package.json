@@ -13,6 +13,14 @@
     "recoil",
     "state management"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandr-g/cra-template-recoil",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandr-g/cra-template-recoil/issues"
+  },
   "files": [
     "template",
     "template.json"

@@ -2,7 +2,7 @@
   "name": "cra-template-recoil",
   "version": "0.1.2",
   "license": "MIT",
-  "author": "Alexander Grischuk <alexgrischuk@gmail.com",
+  "author": "Alexander Grischuk <alexgrischuk@gmail.com>",
   "main": "template.json",
   "description": "A light weight Create React App template with Recoil for state management",
   "keywords": [

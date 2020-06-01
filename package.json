@@ -29,7 +29,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "recoil": "^0.0.7"
+    "recoil": "^0.0.8"
   },
   "scripts": {
     "start": "react-scripts start",

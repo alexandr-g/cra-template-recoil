@@ -26,8 +26,8 @@
     "template.json"
   ],
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-scripts": "3.4.3",
     "recoil": "^0.0.13"
   },
